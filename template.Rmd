@@ -38,9 +38,8 @@ plot_df =
     x = rnorm(n = 1000),
     y = 1 + 2  * x +rnorm (n = 1000)
   )
-
-ggplot(plot_df, aes(x = x, y = y)) +geom_point()
 ```
+deleting histogram also 
 
 ## Plot from learning assessment
 ```{r learning_assessment_1}
@@ -56,3 +55,4 @@ la_df =
 ```
 
 Adding text to see if it works in git
+changing again! 
